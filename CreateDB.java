@@ -6,8 +6,8 @@ import java.awt.*;
 
 public class CreateDB {
     static String url = "jdbc:mysql://localhost:3306/data";
-    static String userName = "root";
-    static String password = "Mk@21146";
+    static String userName = "####";
+    static String password = "******";
 
     static JTable table;
     static DefaultTableModel model;
@@ -205,4 +205,5 @@ public static void update(){
             loginFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         });
     }
+
 }
