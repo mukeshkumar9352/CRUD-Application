@@ -12,8 +12,8 @@ class LoginFrame extends JFrame implements ActionListener {
 
     // Database connection details (same as in MyJFrame1)
     String url = "jdbc:mysql://localhost:3306/data";
-    String userName = "root";
-    String password = "Mk@21146";
+    String userName = "#####";
+    String password = "*******";
 
     public LoginFrame() {
         setTitle("Login");
@@ -76,4 +76,5 @@ class LoginFrame extends JFrame implements ActionListener {
             return false;
         }
     }
+
 }
